@@ -19,7 +19,7 @@ module.exports = {
         var channelId=message.member.voice.channelID;
         var channel=client.channels.cache.get(channelId);
         channel.join().then(connection => {
-            broadcast.play(discordTTS.getVoiceStream("Ho Ho Ho I am Andreas the Cannibal A.K.A Santa the Cannibal. I like to eat elves and be an Etheopian jew! Merry Christmas!"));
+            broadcast.play(discordTTS.getVoiceStream("Ho Ho Ho I am Andreas the Cannibal A.K.A Santa the Cannibal. I like to eat elves! Merry Christmas!"));
             const dispatcher=connection.play(broadcast);
         });
             

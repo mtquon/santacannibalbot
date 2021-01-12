@@ -5,7 +5,7 @@ module.exports = {
     utilisation: '{prefix}ping',
 
     execute(client, message) {
-        message.channel.send("PONG MOTHERFUCKER!");
+        message.channel.send("PONG!");
         message.channel.send(`${client.emotes.success} - Ping : **${client.ws.ping}ms** !`);
     },
 };
