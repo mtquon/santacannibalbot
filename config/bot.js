@@ -16,8 +16,8 @@ module.exports = {
     discord: {     
         activity: "Cannibalizing Elves",
         prefix: "/",
-        token: "Nzg5MzM2Mjc0OTgwMTc1ODky.X9wksQ.BmXivubLnhzS4m_X915cQMR_vLc",
-        TENORKEY: "W9QMYANG0BFL"
+        token: "discord token goes here",
+        TENORKEY: "tenorykey goes here"
     },
 
     filters: ['caleb', 'amy','max','jakob','sean','robot','nightcore'],
